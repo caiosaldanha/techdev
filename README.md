@@ -4,3 +4,6 @@ This repository is a requirement of the Certified Tech Developer course from Dig
 Here I'm constantly pushing all the projects and exercises from the course.
 
 Always learning! :)
+
+![](https://github.com/caiosaldanha/techdev/blob/main/files/ctdlogo.jpg)
+
