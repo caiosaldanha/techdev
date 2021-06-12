@@ -1,0 +1,82 @@
+/* CSS of Book.html */
+
+/* Created by Caio Saldanha */
+
+
+    /* 
+        Google Fonts
+        font-family: 'Copse', serif;
+        font-family: 'Cormorant Garamond', serif;
+    */
+
+
+/* ----------------- BODY ----------------- */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: black;
+    background-image: url("./img/paper.jpg");
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* ------------------- H element------------- */
+
+h1 {
+    display: block;
+    color: black;
+    text-align: center;
+    font-family: 'Copse', serif;
+    font-size: 120px;
+}
+
+
+/* ---------------- p element-------------- */
+
+p {
+    display: inline;
+    color: rgba(0, 0, 0, 1);
+    font-size: x-large;
+
+}
+
+
+/* ------------------divs------------------- */
+
+div {
+    width: 25em;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 5%;
+    margin: 5%;
+    display: inline-block;
+}
+
+div#leftcolumn {
+    background-color: rgba(76, 0, 255, 0.5);
+
+}
+
+
+div#rightcolumn {
+    background-color: rgba(5, 138, 60, 0.50);
+
+}
+
+
+/* --------------------Images----------------- */
+
+img {
+    padding-bottom: 5%;
+
+}
+
+
+/* -------------------- SECTIONS -------------- */
+
+footer {
+    text-align: center;
+    font-family: 'Copse', serif;
+    padding-bottom: 5%;
+
+}
