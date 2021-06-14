@@ -1,3 +1,3 @@
-# Certified Tech Developer - 2021 - Class 1
+# Banco de Dados notes
 
 - Exercises & Code Chalanges

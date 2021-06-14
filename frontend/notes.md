@@ -1,6 +1,6 @@
 # Front End notes
 
-1. Modulo 1 - Boas-vindas e uso de ferramentas (24/05 e 26/05)
+## Modulo 1 - Boas-vindas e uso de ferramentas (24/05 e 26/05)
 
 - Estrutura de pastas recomendada:
 
@@ -16,9 +16,7 @@
 
 - Dica: wireframe.cc
 
-
-
-2. Modulo 2 - Introdução às estruturas (31/05 e 2/06)
+## Modulo 2 - Introducao as estruturas (31/05 e 2/06)
 
 -   < tag atributos="valores" > conteudos < /tag >
 
@@ -44,25 +42,28 @@
 
   ​    `< /html >`
 
-- Ordered list <ol> and list items <li>
+- Ordered list < ol > and list items < li >
 
-  <ol>
-      <li>Primeiro item</li>
-      <li>Segundo item</li>
-      <li>Terceiro item</li>
-  </ol>
+  `< ol >` - numeros
+      `< li >Primeiro item< /li >`
+      `< li >Segundo item< /li >`
+      `< li >Terceiro item< /li >`
+  `< /ol >`
 
-3. Modulo 3 - Introducao aos estilos
-   
-   
-4. Modulo 4 - Formulários
-   
+## Modulo 3 - Introducao aos estilos
 
-5. Modulo 5 - Estilos avançados
-   
 
-6. Modulo 6 - Design adaptativo e layout
-   
 
-7. Modulo 7 - Módulos de trabalho
-   
+## Modulo 4 - Formularios
+
+
+
+## Modulo 5 - Estilos avançados
+
+
+
+## Modulo 6 - Design adaptativo e layout
+
+
+
+## Modulo 7 - Modulos de trabalho

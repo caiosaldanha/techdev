@@ -1,3 +1,3 @@
-# Certified Tech Developer - 2021 - Class 1
+# Programacao Imperativa notes
 
 - Exercises & Code Chalanges
