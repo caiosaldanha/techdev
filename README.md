@@ -1,7 +1,7 @@
-# Welcome to techDev
+# Certified Tech Developer
 This repository is a requirement of the Certified Tech Developer course from Digital House.
 
-Here I'm constantly pushing all the projects and exercises from the course.
+Here I'm constantly updating projects and exercises of the course.
 
 Always learning! :)
 
@@ -9,10 +9,11 @@ Always learning! :)
 
 ###  2021.1
 <ul>
-    <li>Banco de Dados</li>
-    <li>Programação Imperativa</li>
-    <li>Introdução à Informática</li>
-    <li>Front End</li>
-    <li>Metodologias Ágeis</li>
-    <li>Learning Agility</li>
+    <li><a href="https://github.com/caiosaldanha/techdev/bancodedados">Banco de Dados</a></li>
+    <li><a href="https://github.com/caiosaldanha/techdev/programacaoimperativa">Programação Imperativa</a></li>
+    <li><a href="https://github.com/caiosaldanha/techdev/introducaoainformatica">Introdução à Informática</a></li>
+    <li><a href="https://github.com/caiosaldanha/techdev/frontend">Front End</a></li>
+    <li>Metodologias Ágeis (no repo)</li>
+    <li>Learning Agility (no repo)</li>
 </ul>
+

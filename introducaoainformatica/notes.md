@@ -1,3 +1,4 @@
-# Intro a Informatica notes
+# Introdução à Informática notes
 
 - Exercises & Code Chalanges
+
