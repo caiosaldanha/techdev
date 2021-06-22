@@ -1,11 +1,11 @@
 # Certified Tech Developer
-This repository is a requirement of the Certified Tech Developer course from Digital House.
+![](https://github.com/caiosaldanha/techdev/blob/main/files/ctdlogo.jpg)
 
-Here I'm constantly updating projects, and exercises of the course.
+Repository for the Certified Tech Developer course from Digital House.
+
+Here I'm constantly updating projects, and exercises from the course.
 
 Always learning! :)
-
-![](https://github.com/caiosaldanha/techdev/blob/main/files/ctdlogo.jpg)
 
 ###  2021.1
 <ul>
@@ -16,4 +16,3 @@ Always learning! :)
     <li>Metodologias Ágeis (no repo)</li>
     <li>Learning Agility (no repo)</li>
 </ul>
-
