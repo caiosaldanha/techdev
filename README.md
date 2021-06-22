@@ -1,7 +1,7 @@
 # Certified Tech Developer
 This repository is a requirement of the Certified Tech Developer course from Digital House.
 
-Here I'm constantly updating projects and exercises of the course.
+Here I'm constantly updating projects, and exercises of the course.
 
 Always learning! :)
 
