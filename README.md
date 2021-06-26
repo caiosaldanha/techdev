@@ -1,7 +1,8 @@
 # Certified Tech Developer
-![](https://github.com/caiosaldanha/techdev/blob/main/files/ctdlogo.jpg)
 
 Repository for the Certified Tech Developer course from Digital House.
+
+![](https://github.com/caiosaldanha/techdev/blob/main/files/ctdlogo.jpg)
 
 Here I'm constantly updating projects, and exercises from the course.
 
