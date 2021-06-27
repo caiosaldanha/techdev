@@ -1,18 +1,21 @@
 # Front End
 
 ### Módulo 1
-
-[Wireframe ]()
-
-[Piratation Books]()
+- [Wireframe]()
+- [Piratation Books]()
 
 ### Módulo 2
-
-[Gigabyte]()
+- [Gigabyte]()
 
 ### Módulo 3
+- [Bookzinho]()
+- [Tarot]()
 
-[Bookzinho]()
+### Módulo 4
 
-[Tarot]()
+### Módulo 5
 
+### Módulo 6
+
+### Desafios
+- [Starcourt Mall]()
