@@ -8,7 +8,8 @@ Here I'm constantly updating projects, and exercises from the course.
 
 Always learning! :)
 
-###  2021.1
+### 2021.1
+
 <ul>
     <li><a href="https://github.com/caiosaldanha/techdev/tree/main/bancodedados">Banco de Dados</a></li>
     <li><a href="https://github.com/caiosaldanha/techdev/tree/main/programacaoimperativa">Programação Imperativa</a></li>
