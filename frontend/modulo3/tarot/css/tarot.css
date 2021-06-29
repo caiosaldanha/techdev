@@ -1,6 +1,6 @@
 /* ========================================= 
         CSS of Tarot das Profundezas 
-============================================ */ 
+============================================ */
 
 /* Google fonts
         
@@ -8,86 +8,72 @@
 
 */
 
-
 /* --------------BODY----------------- */
 body {
-        background-color: black;
-        color: tomato;
-        text-align: center;
-        align-content: center;
-        font-family: 'Viaoda Libre', cursive;
+  background-color: black;
+  color: tomato;
+  text-align: center;
+  align-content: center;
+  font-family: "Viaoda Libre", cursive;
 }
-
-
 
 /* ----------------SECTIONS------------- */
 header {
-        text-align: center;
-
+  text-align: center;
 }
 
 main {
-
-
 }
 
 footer {
-
-
 }
-
 
 /* ------------------H------------------ */
 h1 {
-        font-size: 500%;
+  font-size: 500%;
 }
 
 /* ------------------A------------------- */
 a {
-        color: black;
-        text-decoration: none;
-
+  color: black;
+  text-decoration: none;
 }
 
 /* -----------------IMGS---------------- */
 img {
-        height: 400px;
-
+  height: 400px;
 }
-
 
 /* ----------------DIVS----------------- */
 div {
-
-
 }
 
 div.carta {
-        background-color: white;
-        display: inline-block;
-        padding: 1%;
-        margin: 2%;
-        box-sizing: content-box;
+  background-color: white;
+  display: inline-block;
+  padding: 1%;
+  margin: 2%;
+  box-sizing: content-box;
 }
 
 div.carta:hover {
-        background-color:black;
-        display: inline-block;
-        padding: 1%;
-        border: solid 5px tomato;
-        margin: 2%;
-        box-sizing: content-box;
+  background-color: black;
+  display: inline-block;
+  padding: 1%;
+  border: solid 5px tomato;
+  margin: 2%;
+  box-sizing: content-box;
 }
 
 div.aviso {
-        display: inline-block;
-        position: fixed;
-        right: 5%;
-        bottom: 5%;
-        background-color: tomato;
-        color: black;
-        padding: 1%;
-        font-size: large;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 600;
+  display: inline-block;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  background-color: tomato;
+  color: black;
+  padding: 1%;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }

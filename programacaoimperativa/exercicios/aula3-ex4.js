@@ -1,14 +1,12 @@
-function calcularIndiceDeMassaCorporal (peso, altura) {
-    return (peso/((altura/100)**2)).toFixed(2);
+function calcularIndiceDeMassaCorporal(peso, altura) {
+  return (peso / (altura / 100) ** 2).toFixed(2);
 }
 
-jose = calcularIndiceDeMassaCorporal(100,185);
-console.log('IMC= ' + jose)
+jose = calcularIndiceDeMassaCorporal(100, 185);
+console.log("IMC= " + jose);
 
 rose = calcularIndiceDeMassaCorporal(50, 156);
-console.log('IMC= ' + rose);
-
-
+console.log("IMC= " + rose);
 
 /* raciocinio professora
 

@@ -1,69 +1,61 @@
 # Front End notes
 
-## Modulo 1 - Boas-vindas e uso de ferramentas (24/05 e 26/05)
+#### Modulo 1 - Boas-vindas e uso de ferramentas (24/05 e 26/05)
 
 - Estrutura de pastas recomendada:
 
-  ​    root
+  ​ root
 
-  ​    |
+  ​ |
 
-  ​    |----css
+  ​ |----css
 
-  ​    |----js
+  ​ |----js
 
-  ​    |----imgs
+  ​ |----imgs
 
 - Dica: wireframe.cc
 
-## Modulo 2 - Introducao as estruturas (31/05 e 2/06)
+#### Modulo 2 - Introducao as estruturas (31/05 e 2/06)
 
--   < tag atributos="valores" > conteudos < /tag >
+- < tag atributos="valores" > conteudos < /tag >
 
--   Basic html structure:
+- Basic html structure:
 
-     `< !DOCTYPE html >`
+  `< !DOCTYPE html >`
 
-  ​    `< html >`
+​ `< html >`
 
-  ​      `< head >` - o "cérebro" da pagina (dps do JS. rs)
+​ `< head >` - o "cérebro" da pagina (dps do JS. rs)
 
-  ​        `< meta charset="utf-8" >` - configuração de caracteres
+​ `< meta charset="utf-8" >` - configuração de caracteres
 
-  ​        `< title > Hello world < /title >` - título da página
+​ `< title > Hello world < /title >` - título da página
 
-  ​      `< /head >`
+​ `< /head >`
 
-  ​      `< body >`
+​ `< body >`
 
-  ​        `< p > Lorem ipsum < /p >` - corpo da página
+​ `< p > Lorem ipsum < /p >` - corpo da página
 
-  ​      `< /body >`
+​ `< /body >`
 
-  ​    `< /html >`
+​ `< /html >`
 
 - Ordered list < ol > and list items < li >
 
   `< ol >` - numeros
-      `< li >Primeiro item< /li >`
-      `< li >Segundo item< /li >`
-      `< li >Terceiro item< /li >`
+  `< li >Primeiro item< /li >`
+  `< li >Segundo item< /li >`
+  `< li >Terceiro item< /li >`
   `< /ol >`
 
-## Modulo 3 - Introducao aos estilos
+#### Modulo 3 - Introducao aos estilos
 
+#### Modulo 4 - Formularios
 
+#### Modulo 5 - Estilos avançados
 
-## Modulo 4 - Formularios
+#### Modulo 6 - Design adaptativo e layout
 
-
-
-## Modulo 5 - Estilos avançados
-
-
-
-## Modulo 6 - Design adaptativo e layout
-
-
-
-## Modulo 7 - Modulos de trabalho
+#### Modulo 7 - Modulos de trabalho

@@ -4,57 +4,51 @@ CSS do Gigabyte Cafe
 
 -----------------------------*/
 
-
-
-
-
 /* -------------------Headers----------------- */
 h1 {
   font-size: 100px;
   text-transform: uppercase;
 }
 
-h2, h3 {
-    text-transform: uppercase;
-    font-size: 50px;
-    text-align: center;
-    padding: 5%;
+h2,
+h3 {
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  padding: 5%;
 }
 
 /* --------------- Body --------------------*/
 body {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    background-color: black;
-    color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: black;
+  color: white;
 }
-
 
 /* ---------------- Images -------------------*/
 img {
-    border:0.5em;
-    border-color: green;
-    border-style: dashed;
-    border-radius: 10%;
-    padding: 5%;
+  border: 0.5em;
+  border-color: green;
+  border-style: dashed;
+  border-radius: 10%;
+  padding: 5%;
 }
 
 img#donavilma {
-    padding: 0px;
+  padding: 0px;
 }
-
 
 /* ---------------------Links ----------------- */
 a {
-    font-weight: bold;
-    font-size: 20px;
-    color: green;
-    text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  color: green;
+  text-transform: uppercase;
 }
-
 
 /* -------------------- List ------------------ */
 div#cardapio {
-    display: inline-block;
-    text-align: left;
+  display: inline-block;
+  text-align: left;
 }
