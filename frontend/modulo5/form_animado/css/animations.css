@@ -1,0 +1,16 @@
+/* form animation */
+.slide-form {
+    animation-duration: 1.5s;
+    animation-name: slideIn;
+}
+
+@keyframes slideIn{
+    from {
+        margin-top: -100%;
+    }
+
+    to {
+        margin-top: 0;
+    }
+
+}

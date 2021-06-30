@@ -1,0 +1,24 @@
+/* h1 hover */
+#form h1 {
+    display: inline;
+}
+
+#form > h1:hover {
+    color: white;
+}
+
+
+/* inputs hover */
+.hvr-bk:hover {
+    background-color: purple;
+    border-radius: 5px;
+    transition: all 0.9s ease-in-out;
+}
+
+
+/* buttons hover */
+.btn:hover {
+    background-color: white;
+    color: purple;
+    font-weight: bold;
+}
