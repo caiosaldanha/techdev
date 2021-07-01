@@ -32,13 +32,13 @@
 
       1.2 Documentação do Node.js
 
-    [nodejs.org](https://nodejs.org/dist/latest-v12.x/docs/api/)
+        [nodejs.org](https://nodejs.org/dist/latest-v12.x/docs/api/)
 
-    [File System module](https://nodejs.org/api/fs.html)
+        [File System module](https://nodejs.org/api/fs.html)
 
-    [Process module](https://nodejs.org/dist/latest-v12.x/docs/api/process.html)
+        [Process module](https://nodejs.org/dist/latest-v12.x/docs/api/process.html)
 
-    <br>
+        <br>
 
 2.  Tipos de dados
 
