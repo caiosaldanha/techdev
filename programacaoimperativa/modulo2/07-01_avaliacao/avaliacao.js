@@ -136,10 +136,10 @@ function Carne(nome, tempo)
     };
 }
 
-//Criamos o prato de macarrao
+//Criamos o prato de carne
 let pratoCarne = new Carne("Carne", 10);
 
-//Criamos o pedido de macarrao
+//Criamos o pedido de carne
 function fazerCarne() {
     if (pratoCarne.checarNome() == "OK") {
         console.log(pratoCarne.preparar());
@@ -150,3 +150,88 @@ function fazerCarne() {
 
 //Pedimos para fazer carne
 fazerCarne();
+
+/*----------------Feijao-------------*/
+//Objeto Feijao
+function Feijao(nome, tempo)
+{
+    this.nome = nome;
+    this.tempo = tempo;
+    this.checarNome = function () {
+        if (this.nome != "Feijao") {
+            return ("Prato inexistente");
+        } else {
+            return ("OK")
+        }
+      };
+    this.preparar = function () {
+        if (this.tempo > 2*tempoFeijao && this.tempo < 3*tempoFeijao){
+            return ("A comida queimou!!");
+        } if (this.tempo < tempoFeijao) {
+            return ("Tempo insuficiente para " + this.nome);
+        } if (this.tempo > 3*tempoFeijao) {
+            return ("KABUM!!! Já era seu prato de " + this.nome);
+        }
+        else {
+            return ("Prato de " + this.nome + " está pronto! Bom apetite!!!");
+        }
+    };
+}
+
+//Criamos o prato de Feijao
+let pratoFeijao = new Feijao("Feijao", 10);
+
+//Criamos o pedido de Feijao
+function fazerFeijao() {
+    if (pratoFeijao.checarNome() == "OK") {
+        console.log(pratoFeijao.preparar());
+    }else {
+        console.log(pratoFeijao.checarNome());
+    }
+};
+
+//Pedimos para fazer Feijao
+fazerFeijao();
+
+
+/*----------------Brigadeiro-------------*/
+//Objeto Brigadeiro
+function Brigadeiro(nome, tempo)
+{
+    this.nome = nome;
+    this.tempo = tempo;
+    this.checarNome = function () {
+        if (this.nome != "Brigadeiro") {
+            return ("Prato inexistente");
+        } else {
+            return ("OK")
+        }
+      };
+    this.preparar = function () {
+        if (this.tempo > 2*tempoBrigadeiro && this.tempo < 3*tempoBrigadeiro){
+            return ("A comida queimou!!");
+        } if (this.tempo < tempoBrigadeiro) {
+            return ("Tempo insuficiente para " + this.nome);
+        } if (this.tempo > 3*tempoBrigadeiro) {
+            return ("KABUM!!! Já era seu prato de " + this.nome);
+        }
+        else {
+            return ("Prato de " + this.nome + " está pronto! Bom apetite!!!");
+        }
+    };
+}
+
+//Criamos o prato de Brigadeiro
+let pratoBrigadeiro = new Brigadeiro("Brigadeiro", 10);
+
+//Criamos o pedido de Feijao
+function fazerBrigadeiro() {
+    if (pratoBrigadeiro.checarNome() == "OK") {
+        console.log(pratoBrigadeiro.preparar());
+    }else {
+        console.log(pratoBrigadeiro.checarNome());
+    }
+};
+
+//Pedimos para fazer Brigadeiro
+fazerBrigadeiro();
