@@ -9,4 +9,4 @@ let pessoa = {
 
 let { nomeCompleto: nome, renda } = pessoa;
 
-console.log(nome);
+console.log(pessoa);
