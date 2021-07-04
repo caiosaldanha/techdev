@@ -133,7 +133,7 @@ button {
 }
 
 @media (min-aspect-ratio: 16/9) {
-  .video-foreground {
+  .video-background {
     height: 300%;
     top: -100%;
   }
@@ -142,5 +142,11 @@ button {
   .video-foreground {
     width: 300%;
     left: -100%;
+  }
+}
+@media (max-width: 767px) {
+  .video-background,
+  .video-foreground {
+    display: none;
   }
 }
