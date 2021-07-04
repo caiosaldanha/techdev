@@ -29,7 +29,7 @@ body {
 .form {
   background-color: blueviolet;
   max-width: 30em;
-  max-height: 50em;
+  max-height: 60em;
   padding: 1rem 0 3em 0;
   margin: 1em auto;
   filter: drop-shadow(0 0 10.75rem rgb(212, 68, 225));
