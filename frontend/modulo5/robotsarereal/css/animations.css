@@ -1,0 +1,113 @@
+/* body bg */
+body {
+  animation-name: question;
+  animation-duration: 5s;
+}
+
+@keyframes question {
+  from {
+    background-color: rgb(63, 40, 85);
+  }
+  to {
+    background-color: rgb(0, 0, 0);
+  }
+}
+
+/* form bg */
+.form {
+  animation-name: bgform;
+  animation-duration: 10s;
+}
+
+@keyframes bgform {
+  from {
+    background-color: rgb(63, 40, 85);
+    filter: drop-shadow(0 0 10.75rem rgb(0, 0, 0));
+    opacity: 90%;
+  }
+  to {
+    background-color: blueviolet;
+    filter: drop-shadow(0 0 10.75rem rgb(212, 68, 225));
+    opacity: 100%;
+  }
+}
+
+/* robot */
+.robot {
+  animation-name: robot;
+  animation-duration: 5s;
+}
+
+@keyframes robot {
+  from {
+    font-size: 0;
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+  to {
+    font-size: 5em;
+    opacity: 100%;
+  }
+}
+
+/* question */
+.question {
+  animation-name: question;
+  animation-duration: 10s;
+}
+
+@keyframes question {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+/* fields */
+.fields {
+  animation-name: fields;
+  animation-duration: 10s;
+}
+
+@keyframes fields {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+/* button */
+button {
+  animation-name: button;
+  animation-duration: 10s;
+}
+
+@keyframes button {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+/* phrase */
+.phrase {
+  animation-name: phrase;
+  animation-duration: 5s;
+}
+
+@keyframes phrase {
+  from {
+    font-size: 0;
+    opacity: 0;
+  }
+  to {
+    font-size: 1rem;
+    opacity: 100%;
+  }
+}

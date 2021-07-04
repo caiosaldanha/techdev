@@ -1,0 +1,133 @@
+/* =======================================
+
+CSS of Are you a Robot? by Caio Saldanha
+
+==========================================*/
+
+/*  
+  Google fonts
+    font-family: 'Bungee', cursive;
+    font-family: 'Montserrat', sans-serif;
+*/
+
+/* reset all */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Bungee", cursive;
+  color: white;
+  text-align: center;
+}
+
+/* form */
+.form {
+  background-color: blueviolet;
+  max-width: 30em;
+  max-height: 50em;
+  padding: 1rem 0 3em 0;
+  margin: 1em auto;
+  filter: drop-shadow(0 0 10.75rem rgb(212, 68, 225));
+  z-index: 10;
+  border-radius: 10px;
+}
+
+/* robot */
+.robot {
+  font-size: 5rem;
+  padding: 0 0 0 0;
+  display: block;
+}
+
+/* question */
+.question {
+  margin-top: -1.5rem;
+  margin-bottom: 0.5em;
+  font-family: "Bungee", cursive;
+  font-weight: 400;
+}
+
+/* labels */
+label[for="who"],
+label[for="email"],
+label[for="password"] {
+  margin-right: 20px;
+  text-align: left;
+}
+
+/* inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin-bottom: 30px;
+  color: white;
+  outline: none;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* all fields divs */
+.fields {
+}
+
+/* option */
+option {
+  background-color: blueviolet;
+}
+
+#why {
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  outline: none;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* btns */
+button {
+  border: none;
+  border-radius: 5px;
+  background: none;
+  background-color: rgba(113, 50, 172, 0.4);
+  color: white;
+  padding: 0.5rem 2rem;
+  transition: all 0.5s ease-in-out;
+  font-family: "Bungee", cursive;
+  font-weight: 400;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  transition-property: all;
+  transform-style: flat;
+  transition-duration: 0.5s ease-in-out;
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.5));
+  transform: translateY(-5px) translateX(1px);
+}
+button:visited {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  transition-property: all;
+  transform-style: flat;
+  transition-duration: 0.5s ease-in-out;
+  filter: drop-shadow(0 5px 5px rgb(255, 255, 255));
+}
+
+/* phrase */
+.phrase {
+  font-size: 1rem;
+  font-family: "Bungee", cursive;
+  font-weight: 400;
+}

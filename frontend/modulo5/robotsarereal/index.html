@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<!-- english -->
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animations.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- title page -->
+    <title>Robots are real</title>
+  </head>
+
+  <body>
+    <!-- form -->
+    <form class="form">
+      <span class="robot">🤖</span>
+      <h1 class="question">Are you a robot?</h1>
+
+      <!-- who -->
+      <div class="fields">
+        <label for="who">who</label>
+        <input type="text" name="who" id="who" />
+      </div>
+
+      <!-- email -->
+      <div class="fields">
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <!-- key -->
+      <div class="fields">
+        <label for="password">key</label>
+        <input type="password" name="password" id="password" />
+      </div>
+
+      <!-- why -->
+      <div class="fields">
+        <select name="why" id="why" required>
+          <option value="">----Am I a robot?----</option>
+          <option value="true">I'm a Robot</option>
+          <option value="false">I'm NOT a Robot</option>
+        </select>
+      </div>
+
+      <!-- btns -->
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+    </form>
+
+    <div class="phrase">
+      <span>🤖🤖 are real</span>
+    </div>
+  </body>
+</html>
