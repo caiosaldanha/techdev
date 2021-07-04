@@ -40,13 +40,14 @@ body {
 /* robot */
 .robot {
   font-size: 5rem;
-  padding: 0 0 1rem 0;
+  padding: none;
+  margin: 1rem;
   display: block;
 }
 
 /* question */
 .question {
-  margin-top: -1.5rem;
+  margin-top: 1rem;
   margin-bottom: 0.5em;
   font-family: "Bungee", cursive;
   font-weight: 400;
