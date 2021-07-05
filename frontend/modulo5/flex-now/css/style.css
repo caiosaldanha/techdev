@@ -1,0 +1,95 @@
+/* reset all */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: grey;
+}
+
+/* header */
+header {
+  background-color: rgb(0, 0, 0);
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* a */
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* ul */
+ul {
+    display: flex;
+}
+
+/* li */
+li {
+    list-style: none;
+}
+
+/* ul li */
+ul li {
+    margin-left: 10px;
+    padding: 5px;
+    /* justify-content: space-between; */
+}
+
+/* ul li hover */
+ul li:hover {
+    background-color: blueviolet;
+    border-radius: 5px;
+    /* justify-content: space-between; */
+}
+
+/* ul li a */
+ul li a {
+    padding: 10px;    
+}
+
+/* h1 titulo */
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+/* flex-container */
+#flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* articles */
+article {
+    width: 150px;
+    margin: 10px;
+    justify-content: center;
+    flex: 1 1 20%;
+    background-color: rgba(155, 48, 143, 0.8);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+/* footer-art */
+.footer-art {
+    text-align: center;
+}
+
+/* btn */
+.btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: none;
+}
