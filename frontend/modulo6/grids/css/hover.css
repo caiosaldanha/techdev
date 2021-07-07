@@ -1,0 +1,16 @@
+/* itens */
+.hvr-its:hover {
+    background-color: red;
+    border-radius: 10px;
+}
+
+/* img hover */
+.img-hvr:hover {
+    border: 5px solid red;
+}
+
+/* button hover */
+button:hover {
+    background-color: lightgrey;
+    color: red;
+}

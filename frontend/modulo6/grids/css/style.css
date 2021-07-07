@@ -1,0 +1,119 @@
+/* reset all */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+/* body */
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+/* header */
+header {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+}
+
+/* a */
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* menu */
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 7px;
+    list-style: none;
+}
+
+.menu li .itens {
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+/* logo */
+a span {
+    color: red;
+}
+
+/* main */
+main {
+    max-width: 69%;
+    margin: 20px auto;
+}
+
+/* title */
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+/* img */
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.img-hvr {
+    transition: 0.3s ease-in-out;
+    filter: drop-shadow(1px 1px 10px black);
+    border: 5px solid transparent;
+}
+
+/* container grid */
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+/* card aluno */
+.card-aluno {
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card-aluno > p {
+    line-height: 30px;
+}
+
+/* button */
+button {
+    padding: 12px 20px;
+    background: none;
+    border: none;
+    color: black;
+    background-color: red;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+
+footer span {
+    color: red;
+}
