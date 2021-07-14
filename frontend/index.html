@@ -19,9 +19,10 @@
         box-sizing: border-box;
       }
       body {
-        background-color: black;
-        color: blueviolet;
-        font-family: sans-serif;
+        background-color: white;
+        color: black;
+        font-family: monospace;
+        font-weight: 500;
         text-align: left;
         font-size: calc(1.3rem + 0.2vw);
         word-break: break-word;
@@ -38,42 +39,35 @@
       }
       a {
         text-decoration: none;
-        color: blueviolet;
+        color: black;
       }
       .projects {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        flex-direction: column;
       }
       h3 {
-        margin: 10vh auto 5vh auto;
-      }
-      .quote {
-        position: absolute;
-        bottom: 0;
-        margin: 0 0 2vh 1vw;
+        margin: 7vh auto 2vh auto;
       }
       @media (max-width: 900px) {
         main {
           padding: 2vh 15vw;
           line-height: 5vh;
+          text-align: center;
         }
         h3 {
-          margin: 10vh auto 5vh auto;
+          margin: 8vh auto 5vh auto;
         }
         p {
-          margin-bottom: 4vh;
+          margin-bottom: 3rem;
+          font-size: 1.7rem;
         }
         .projects {
           display: flex;
           flex-wrap: wrap;
           flex-direction: column;
-          justify-content: flex-start;
-        }
-        .quote {
-          position: relative;
-          bottom: 0;
-          margin: 5vh 0 2vh 1vw;
+          justify-content: space-evenly;
         }
       }
     </style>
@@ -82,12 +76,12 @@
   <body>
     <main>
       <div class="title">
-        <h2>Hello, I'm Caio.</h2>
-        <p>I'm a Dev Student @ Digital House Brazil.</p>
+        <h2>Hello, I'm Caio 🖖</h2>
+        <p>I'm a Dev Student at Digital House Brazil</p>
         <p>I'm on on github, linkedin, twitter</p>
-        <p>Here are my Front End projects for the course.</p>
+        <p>Always learning 💡</p>
       </div>
-
+      
       <h3>Projects</h3>
       <div class="projects">
         <p>
@@ -110,7 +104,6 @@
         </p>
       </div>
 
-      <p class="quote">Always learning!</p>
     </main>
   </body>
 </html>
